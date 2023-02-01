@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Serie | Initial D | Website Landing Page Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><img src="img/Netflix-logo.svg" class="logo__imagem"></a>
+        <ul class="navigation">
+            <li class="navigation__list"><a href="#" class="navigation__list-text">Home</a></li>
+            <li class="navigation__list"><a href="#" class="navigation__list-text">TV Shows </a></li>
+            <li class="navigation__list"><a href="#" class="navigation__list-text">Filmes</a></li>
+            <li class="navigation__list"><a href="#" class="navigation__list-text">Ultimos lançamentos</a></li>
+            <li class="navigation__list"><a href="#" class="navigation__list-text">Minha lista</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="img/background-initial.jpg" class="banner__bg">
+        <div class="content">
+            <h2>Initial D </h2> 
+            <h4>
+                <span>2013</span>
+                <span><i>+14</i></span>
+                <span>Oito Temporadas</span>
+                <span>Corrida / Aventura</span>
+            </h4>
+            <p>
+                De dia, esse adolescente faz entregas de tofu para seu pai,<br> um piloto de corridas aposentado; mas, à noite, é ele<br> quem assume o volante.
+
+            </p>
+        
+         <div class="buttons">
+            <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play </a>
+            <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista </a>
+         </div>
+        </div>
+        <a class="play" onclick="toggleVideo();"> 
+            <img src="img/botao-play.png" alt="Play" class="play__imagem">Assistir Trailer</a>
+    </div>
+    <div class="trailer">
+        <video src="video/trailer.webm" controls="true" autoplay="true"></video>
+        <img src="img/close.png" alt="botão Saida" class="close" onclick="toggleVideo();">
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
